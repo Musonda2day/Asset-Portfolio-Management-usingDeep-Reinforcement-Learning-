@@ -1,0 +1,2 @@
+# Asset-Portfolio-Management-using-Deep-Reinforcement-Learning-
+This repository represents work in progress for the Worldquant University Capstone Project titled: Asset Portfolio Management using Deep Reinforcement Learning (DRL). The work presented explores the use of Deep Reinforcement Learning in dynamically allocating assets in a portfolio in order to solve the Tactical Asset Allocation (TAA) problem. 
