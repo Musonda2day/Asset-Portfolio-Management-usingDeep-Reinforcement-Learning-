@@ -10,11 +10,11 @@ The project aims to address the TAA problem by accurately capturing short to med
 
 ## Project Layout
 The project is broken down in six parts in each of the attached notebooks as follows:
-  **1.	**Loading and Installing the Relevant Python Libraries**. The notebook gives the necessary libraries that are used for the implementation of the project. The FinRL library is utilized to implement our Deep Reinforcement Learning algorithms that are based on the Stable Baselines environments. In this notebook we clone the github repository for the FinRL library (https://github.com/AI4Finance-LLC/FinRL-Library). 
+  **1.**	**Loading and Installing the Relevant Python Libraries**. The notebook gives the necessary libraries that are used for the implementation of the project. The FinRL library is utilized to implement our Deep Reinforcement Learning algorithms that are based on the Stable Baselines environments. In this notebook we clone the github repository for the FinRL library (https://github.com/AI4Finance-LLC/FinRL-Library). 
 
   Other relevant libraries include the PyPortfolioOpt librariy which make use of in implementing the Maximum Sharpe allocation strategy which is used as comparison against the performance of the DRL models. We also make use of the Ta-Lib to add technical indicators to our input data. The backtesting and evaluation of models is implemented using the Pyfolio library.
 
-  **2.	**Downloading the Data for the Analysis**. We make use of the YahooDownloader API in the FinRL library to get data for the 30 Dow Jones Industrial Average (Dow JIA) for the period 01 Jan 2009 to 31 December 2020. 
+  **2.**	**Downloading the Data for the Analysis**. We make use of the YahooDownloader API in the FinRL library to get data for the 30 Dow Jones Industrial Average (Dow JIA) for the period 01 Jan 2009 to 31 December 2020. 
   The data is checked for any missing values and for any indicators with missing data for the period specified to ensure that all the tickers have equal number of data points for the analysis.
   After cleaning up, the data is saved in the csv format for use in the analysis.
  **3.	**Feature Engineering and Data Preprocessing**. Feature Engineering and Data Preprocessing is performed on our dataset. We first load the saved csv file in a dataframe and then add technical indicators. A total of ten technical indicators have been added from the categories of Volume, Volatility, Trend and Momentum indicators. Additionally, we add covariance matrices with a one-year lookback to our input dataset. 
