@@ -33,7 +33,8 @@ The three models which we implement are based on the Stable Baselines algorithms
 The models implemented based on three algorithms are stored in dataframes for benchmarking and backtesting.
 
 ## Preliminary Results
-From the preliminary results obtained we observe that the developed DLR models outperforms the naïve based equal weights allocation model and the best DRL model which is the A2C Model outperforms the Dow JIA Index which is the benchmark.
+From the preliminary results obtained we observe that the developed DLR models outperforms the naïve based equal weights allocation model and the best DRL model which is the DDPG Model outperforms the Dow JIA Index which is the benchmark.
+
 The Models however, are outperformed by the Maximum Sharpe model. This certainly shows that the developed models will need tuning of hyper-parameters and consideration of adding indicators that will make the training better.
 
 ## Further Works
@@ -73,4 +74,5 @@ Full List of Files and Folders included in the Repository
   **12.	Models.py file**. Contains the class for the DRL Agents which implement the different models.
 
 The numbered notebooks are to be run in the order in which they have been defined. 
+
 The repository will be updated accordingly once the models are properly tuned and then conclusions and recommendations will be updated together with the report.
