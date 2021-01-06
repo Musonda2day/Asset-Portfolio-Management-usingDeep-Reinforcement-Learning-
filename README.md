@@ -42,7 +42,7 @@ The DRL Models have been built together with the benchmark models. The next step
 
   **1. Feature Engineering**. Further Feature Engineering will be performed to consider addition of more relevant features to the models;
 
-  **2. Hyper-parameter Tuning**. We will tune the hyper-parameters for the model such as the learning rate, number of raining steps etc. We will explore RL Baseline Zoo and Optuna in opimizing the performance of the DRL models.
+  **2. Hyper-parameter Tuning**. We will tune the hyper-parameters for the model such as the learning rate, number of raining steps etc. 
 
   **3. Reward Function Design**. The design of the reward function will be considered in the defined environment space.
 
