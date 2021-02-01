@@ -1,7 +1,7 @@
 # Asset-Portfolio-Management-using-Deep-Reinforcement-Learning-
 
 ## Introduction
-This repository represents work in progress for the Worldquant University Capstone Project titled: Asset Portfolio Management using Deep Reinforcement Learning (DRL).
+This repository represents work for the Worldquant University Capstone Project titled: Asset Portfolio Management using Deep Reinforcement Learning (DRL).
 The work presented explores the use of Deep Reinforcement Learning in dynamically allocating assets in a portfolio in order to solve the Tactical Asset Allocation (TAA) problem. 
 
 ## Objective
@@ -31,24 +31,6 @@ The project is broken down in six parts in each of the attached notebooks as fol
 The three models which we implement are based on the Stable Baselines algorithms for Actor Critic (A2C), Proximal Policy Optimization (PPO) and Deep Deterministic Policy Gradient (DDPG) algorithms. 
 
 The models implemented based on three algorithms are stored in dataframes for benchmarking and backtesting.
-
-## Preliminary Results
-From the preliminary results obtained we observe that the developed DLR models outperforms the naïve based equal weights allocation model and the best DRL model which is the A2C Model outperforms the Dow JIA Index which is the benchmark.
-
-The Models slightly outperforms the maximum sharpe portfolio for the period before 2020 with the A2C model showing the best performance. For the period of 2020 however, the Maximum Sharpe portfolio outperforms the DRL models.
-
-This certainly shows that the developed models will need tuning of hyper-parameters and consideration of adding indicators that will make the training better and optimise performance fopr different market regimes.
-
-## Further Works
-The DRL Models have been built together with the benchmark models. The next step is to optimize the DRL models’ performance. As such, the following further works will be carried out before final conclusions and recommendations:
-
-  **1. Feature Engineering**. Further Feature Engineering will be performed to consider addition of more relevant features to the models;
-
-  **2. Hyper-parameter Tuning**. We will tune the hyper-parameters for the model such as the learning rate, number of raining steps etc. 
-
-  **3. Reward Function Design**. The design of the reward function will be considered in the defined environment space.
-
-  **4. Deep Reinforcement Learning Policy**. Further evaluation of the policies employed in the DRL models will be done to arrive at the most optimal policy.
 
 Full List of Files and Folders included in the Repository
 
@@ -85,7 +67,9 @@ Full List of Files and Folders included in the Repository
   **16.	env_portfolio.py file**. This contains the class for the defined RL environment.
 
   **17.	Models.py file**. Contains the class for the DRL Agents which implement the different models.
+  
+  **18. MScFE_690_Final_Project_Report_Group 01**
+  
+  **19. MScFE_690_Capstone_Project_Presentation_Group 01**
 
 The numbered notebooks are to be run in the order in which they have been defined. 
-
-The repository will be updated accordingly once the models are properly tuned and then conclusions and recommendations will be updated together with the report.
